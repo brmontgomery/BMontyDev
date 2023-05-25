@@ -1,0 +1,31 @@
+Projects to go on portfolio
+Compiler
+3D House project - Vulkan and OpenGL
+The website itself
+-search on the website - https://just-the-docs.github.io/just-the-docs/docs/search/
+-database connections to the website
+Multithreaded projects
+Java project from Java class
+Stock Trading app with Python
+Assembly Code Projects
+AI project
+Machine Learning Project (jupyter)
+
+Blog Ideas
+Making the website - https://ucsbcarpentry.github.io/2022-01-28-ucsb-webpub-online/01-introduction/index.html
+Setting up SSH and my home network
+Finishing the Compilers project
+Create something to do 2D rendering with for all my projects so that things can be graphical
+Creating a planet renderer
+Pathfinding Algorithms
+Creating an ant colony simulation
+Data Analysis Project
+Machine Learning Project
+
+What does the website need
+Home page
+Blog Section
+Portfolio Section
+About Me Section
+
+
