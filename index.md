@@ -4,7 +4,7 @@ title: "PAGE-TITLE"
 permalink: /URL-PATH
 ---
 
-{% include _includes/header.html %}
-{% include _includes/topBanner.html %}
-{% include _includes/sidebar.html %}
-{% include _includes/scripts.html %}
+{% include_relative  _includes/header.html %}
+{% include_relative  _includes/topBanner.html %}
+{% include_relative  _includes/sidebar.html %}
+{% include_relative  _includes/scripts.html %}
