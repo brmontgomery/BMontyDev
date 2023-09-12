@@ -11,21 +11,25 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-		<div id="wrapper">
+		<div id="wrapper" >
 
 			<!-- Main -->
-				<div id="main">
-					<div class="inner">
+			<div id="main" >
+				<div class="inner" >
 
 				<!-- Main -->
 				{% include topBanner.html %}
 
 				{{ content }}
-
-				{% include sidebar.html %}
-
+				
+				</div>
 			</div>
 
+			{% include sidebar.html %}
+
+				
+
 			{% include scripts.html %}
+		</div>
 	</body>
 </html>

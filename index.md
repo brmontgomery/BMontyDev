@@ -8,7 +8,7 @@ title: "Homepage"
     <div class="content">
         <header>
             
-            #Hi, I’m Brian Montgomery#
+            # Hi, I’m Brian Montgomery
             Welcome to my Website
 
         </header>
@@ -32,7 +32,7 @@ title: "Homepage"
 <section>
     <header class="major">
 
-        ##Recent Projects##
+        ## Recent Projects
 
     </header>
     <div class="features">
@@ -40,7 +40,7 @@ title: "Homepage"
             <span class="icon fa-gem"></span>
             <div class="content">
 
-                ###Learning OpenGL###
+                ### Learning OpenGL
                 I followed the tutorial series Learning OpenGL by . The project covers some interesting principles beyond just learning OpenGL, including matrix math for graphics programming, some of the techniques to approximate real world physical properties into code, and more!
 
             </div>
@@ -49,7 +49,7 @@ title: "Homepage"
             <span class="icon solid fa-paper-plane"></span>
             <div class="content">
 
-                ###Vulkan Renderer (Attempt #1: Get it working quick and dirty)###
+                ### Vulkan Renderer (Attempt #1: Get it working quick and dirty)
                 I followed the tutorial series Learning OpenGL by . As with all Vulkan projects, this one is a deep dive into the complex world of the graphics pipeline. It also includes forays into memory management systems, shaders, and more!
 
             </div>
@@ -58,7 +58,7 @@ title: "Homepage"
             <span class="icon solid fa-rocket"></span>
             <div class="content">
 
-                ###Quam lorem ipsum###
+                ### Quam lorem ipsum
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
             </div>
@@ -67,7 +67,7 @@ title: "Homepage"
             <span class="icon solid fa-signal"></span>
             <div class="content">
 
-                ###Sed magna finibus###
+                ### Sed magna finibus
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
             </div>
@@ -79,14 +79,14 @@ title: "Homepage"
 <section>
     <header class="major">
 
-        ##Recent Blog Posts##
+        ## Recent Blog Posts
 
     </header>
     <div class="posts">
         <article>
             <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
             
-            ###Creating this Website###
+            ### Creating this Website
             Documentation of the process and methodology that went into creating my personal website.
 
             <ul class="actions">
@@ -96,7 +96,7 @@ title: "Homepage"
         <article>
             <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 
-            ###A Second Article###
+            ### A Second Article
             A placeholder for a second article. There will be one here soon!
 
             <ul class="actions">
@@ -106,7 +106,7 @@ title: "Homepage"
         <!-- <article>
             <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 
-            ###Tempus ullamcorper###
+            ### Tempus ullamcorper
             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
             <ul class="actions">
@@ -116,7 +116,7 @@ title: "Homepage"
         <article>
             <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
 
-            ###Sed etiam facilis###
+            ### Sed etiam facilis
             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
             <ul class="actions">
@@ -126,7 +126,7 @@ title: "Homepage"
         <article>
             <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
 
-            ###Feugiat lorem aenean###
+            ### Feugiat lorem aenean
             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
             <ul class="actions">
@@ -136,7 +136,7 @@ title: "Homepage"
         <article>
             <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
 
-            ###Amet varius aliquam###
+            ### Amet varius aliquam
             Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
             <ul class="actions">
