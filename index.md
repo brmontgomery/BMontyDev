@@ -13,7 +13,7 @@ title: "Homepage"
 
         </header>
 
-        Based in Walnut, CA. I am currently a mixed discipline software and database engineer (who also does IT work when needed) at Desco Inustries Inc.
+        Based in Walnut, CA. I am currently a mixed-discipline software and database engineer (who also does IT work when needed) at Desco Inustries Inc.
         
         This site showcases my forays into topics that interest me. Let me know if anything I've done interests you.
 
@@ -41,7 +41,11 @@ title: "Homepage"
             <div class="content">
 
                 ### Learning OpenGL
+<<<<<<< HEAD
                 I followed the tutorial series Learning OpenGL by . The project covers some interesting principles beyond just learning OpenGL, including matrix math for graphics programming, some of the techniques to approximate real world physical properties into code, and more!
+=======
+                I followed the tutorial series Learning OpenGL by . The project covers some interesting principles beyond just learning OpenGL, including matrix math for graphics programming, some of the techniques to approximate real-world physical properties into code, and more!
+>>>>>>> 1c92cc282504ff11630a642e22e26af57712f6be
 
             </div>
         </article>
