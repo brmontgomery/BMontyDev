@@ -1,5 +1,5 @@
 ---
-layout: BMontyDev
+layout: posts
 title:  "DevLog 1 - Getting Started on my Portfolio!"
 ---
 
