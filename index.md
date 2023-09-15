@@ -7,22 +7,27 @@ title: "Homepage"
 <section id="banner">
     <div class="content">
         <header>
-            
-            #Hi, I’m Brian Montgomery#
-            Welcome to my Website
+            <div markdown="1">
 
+# Hi, I’m Brian Montgomery
+Welcome to my Website
+
+</div>
         </header>
+        <div markdown="1">
 
-        Based in Walnut, CA. I am currently a mixed discipline software and database engineer (who also does IT work when needed) at Desco Inustries Inc.
-        
-        This site showcases my forays into topics that interest me. Let me know if anything I've done interests you.
+Based in Walnut, CA. I am currently amixed-discipline software and database engineer (whoalso does IT work when needed) at Desco Inustries Inc.
 
-        <!-- Originally there was a button here, 
-            I took it out as I don't have a good spot to send people to from this panel.-->
-        <!--<ul class="actions">
-            <li><a href="#" class="button big">Learn More</a></li>
-        </ul> -->
-    </div>
+This site showcases my forays into topics thatinterest me. Let me know if anything I've doneinterests you.
+
+</div>
+
+<!-- Originally there was a button here, 
+    I took it out as I don't have a good spot to send people to from this panel.-->
+<!--<ul class="actions">
+    <li><a href="#" class="button big">Learn More</a></li>
+</ul> -->
+</div>
     <span class="image object">
         <img src="images/pic10.jpg" alt="" />
     </span>
@@ -30,118 +35,80 @@ title: "Homepage"
 
 <!-- Section -->
 <section>
-    <header class="major">
+    <header class="major" markdown="1">
 
-        ##Recent Projects##
+## Recent Projects
 
-    </header>
+</header>
     <div class="features">
         <article>
             <span class="icon fa-gem"></span>
-            <div class="content">
+            <div class="content" markdown="1">
 
-                ###Learning OpenGL###
-                I followed the tutorial series Learning OpenGL by . The project covers some interesting principles beyond just learning OpenGL, including matrix math for graphics programming, some of the techniques to approximate real world physical properties into code, and more!
+### Learning OpenGL
+I followed the tutorial series Learning OpenGL by . The project covers some interesting principles beyond just learning OpenGL, including matrix math for graphics programming, some of the techniques to approximate real world physical properties into code, and more!
 
-            </div>
+</div>
         </article>
         <article>
             <span class="icon solid fa-paper-plane"></span>
-            <div class="content">
+            <div class="content" markdown="1">
 
-                ###Vulkan Renderer (Attempt #1: Get it working quick and dirty)###
-                I followed the tutorial series Learning OpenGL by . As with all Vulkan projects, this one is a deep dive into the complex world of the graphics pipeline. It also includes forays into memory management systems, shaders, and more!
+### Vulkan Renderer (Attempt #1: Get it working quick and dirty)
+I followed the tutorial series Learning OpenGL by . As with all Vulkan projects, this one is a deep dive into the complex world of the graphics pipeline. It also includes forays into memory management systems, shaders, and more!
 
-            </div>
+</div>
         </article>
         <!--<article>
             <span class="icon solid fa-rocket"></span>
-            <div class="content">
+            <div class="content" markdown="1">
 
-                ###Quam lorem ipsum###
-                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+<!--### Quam lorem ipsum
+Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
-            </div>
+</div>
         </article>
         <article>
             <span class="icon solid fa-signal"></span>
-            <div class="content">
+            <div class="content" markdown="1">
 
-                ###Sed magna finibus###
-                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+### Sed magna finibus
+Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
 
-            </div>
+</div>
         </article> -->
-    </div>
+</div>
 </section>
 
 <!-- Section -->
 <section>
-    <header class="major">
+    <header class="major" markdown="1">
 
-        ##Recent Blog Posts##
+## Recent Blog Posts
 
-    </header>
+</header>
     <div class="posts">
         <article>
             <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-            
-            ###Creating this Website###
-            Documentation of the process and methodology that went into creating my personal website.
+            <div markdown="1">
 
-            <ul class="actions">
-                <li><a href="#" class="button">Read the Article</a></li>
-            </ul>
+### Creating this Website
+Documentation of the process and methodology that went into creating my personal website.
+
+- [Read the Article]({% post_url 2023-09-13-DevLog-Creating_My_Website-1-Getting_Started %}){:.button}
+{:.actions}
+</div>
         </article>
         <article>
             <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+            <div markdown="1">
 
-            ###A Second Article###
-            A placeholder for a second article. There will be one here soon!
+### A Second Article
+A placeholder for a second article. There will be one here soon!
 
-            <ul class="actions">
-                <li><a href="#" class="button">Read the Article</a></li>
-            </ul>
+- [Read the Article]({% post_url 2023-09-13-DevLog-Creating_My_Website-1-Getting_Started %}){:.button}
+{:.actions}
+</div>
         </article>
-        <!-- <article>
-            <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-
-            ###Tempus ullamcorper###
-            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-
-            ###Sed etiam facilis###
-            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-
-            ###Feugiat lorem aenean###
-            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-
-            ###Amet varius aliquam###
-            Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article> -->
     </div>
 </section>
