@@ -95,7 +95,7 @@ Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliqua
 ### Creating this Website
 Documentation of the process and methodology that went into creating my personal website.
 
-- [Read the Article]({{ site.baseurl }}/{% post_url 2023-09-13-DevLog-Creating_My_Website-1-Getting_Started %}){:.button}
+- [Read the Article]({{ site.baseurl }}{% post_url 2023-09-13-DevLog-Creating_My_Website-1-Getting_Started %}){:.button}
 {:.actions}
 </div>
         </article>
@@ -106,7 +106,7 @@ Documentation of the process and methodology that went into creating my personal
 ### A Second Article
 A placeholder for a second article. There will be one here soon!
 
-- [Read the Article]({% post_url 2023-09-13-DevLog-Creating_My_Website-1-Getting_Started %}){:.button}
+- [Read the Article]({{ site.baseurl }}{% post_url 2023-09-13-DevLog-Creating_My_Website-1-Getting_Started %}){:.button}
 {:.actions}
 </div>
         </article>
