@@ -20,11 +20,11 @@
 
 title: BMontyDev
 email: brian@montgomerycrew.net
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "url:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/BMontyDev" # the subpath of your site, e.g. /blog
+url: "" # the subpath of your site, e.g. /blog
 url: "https://brmontgomery.github.io/BMontyDev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  brmontgomery
 
