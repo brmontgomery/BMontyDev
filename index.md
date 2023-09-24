@@ -29,7 +29,7 @@ This site showcases my forays into topics thatinterest me. Let me know if anythi
 </ul> -->
 </div>
     <span class="image object">
-        <img src="images/pic10.jpg" alt="" />
+        <img src="{{ site.baseurl }}/assets/images/pic10.jpg" alt="" />
     </span>
 </section>
 
@@ -89,7 +89,7 @@ Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliqua
 </header>
     <div class="posts">
         <article>
-            <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+            <a href="#" class="image"><img src="{{ site.baseurl }}/assets/images/pic01.jpg" alt="" /></a>
             <div markdown="1">
 
 ### Creating this Website
@@ -100,7 +100,7 @@ Documentation of the process and methodology that went into creating my personal
 </div>
         </article>
         <article>
-            <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+            <a href="#" class="image"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></a>
             <div markdown="1">
 
 ### A Second Article
