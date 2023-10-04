@@ -3,16 +3,17 @@ layout: posts
 title:  "DevLog 1 - Getting Started on my Portfolio!"
 ---
 
-![DevLog Intro Picture](1_DevLog_Intro_Picture)
+<br />
+![DevLog Intro Picture](\assets\images\1_DevLog_Intro_Picture.jpg)
 # Intro
-For my first entry into the DevLogs, I have chosen to create an article on the creation of the website that these will be hosted on. There’s not much more to be said, so let’s get cracking!
+For my first entry into the DevLogs I have chosen to create an article on the creation of the website that these will be hosted on. There’s not much more to be said, so let’s get cracking!
 
 # Requirements
 So, **What is it I need my website to do?**
 
 Well, broadly speaking, I need it to act as both a window into my private coding life, and a resume to show to potential employers. 
 
-Cool, sounds simple. **So how does that translate into the content requirements of the website?**
+Cool, sounds simple. **How does that translate into the content requirements of the website?**
 
 To fit those needs I plan to create:
 - Homepage – I need a page which draws people further into my site while providing them with an overview of what the site is and has to offer.
@@ -36,7 +37,7 @@ The first thing I have to decide is what platform I wish to host my website on. 
 
 The main contenders I am looking at are Wordpress, Squarespace, Github pages, and Firebase.
 
-![Web host logos.](1_Web_Host_Logos.jpg)
+![Web host logos.](\assets\images\1_Web_Host_Logos.jpg)
 
 The first time I attempted to make a personal website (for a non-web-dev undergraduate class) I used Wordpress because it took little effort to make a minimal site for a class. While it had some perks with its simple startup and the ability to host your website for free, I found myself frustrated with the difficulty in customizing my website without forking over a significant sum of money. 
 
@@ -59,15 +60,15 @@ From here you can optionally change title of the website in the _config.yml page
 Make sure to check out your git repository within your computer and set up git tools on your favorite text editor(or the command line). It makes management of repositories and commits much easier.
 
 ## Choosing a template
-To start with, I decided to jumpstart the process with a template from HTML5 UP and it was was the best decision I made that day.
+To start with, I decided to jumpstart the process with a template from [HTML5 UP](https://html5up.net/ "HTML5 UP Homepage") and it was was the best decision I made that day.
 
 I tried a few themes and eventually narrowed it down to the *Story* theme
 
-![Story theme.](1_Story_Theme.jpg) 
+![Story theme.](\assets\images\1_Story_Theme.jpg) 
 
 and the *Editorial* theme.
 
-![Editorial theme.](1_Editorial_Theme.jpg)
+![Editorial theme.](\assets\images\1_Editorial_Theme.jpg)
 
 I wound up going with the *Editorial* theme as I felt it fit my needs more.
 
@@ -76,15 +77,15 @@ I put the theme in place on my checked out copy of the dev branch and committed 
 # Editing the Home Page
 The first thing I did was edit the titles and welcome messages to match my site's name and welcome users to my site.
 
-![Welcome Message.](1_Welcome_Message.jpg)
+![Welcome Message.](\assets\images\1_Welcome_Message.jpg)
 
 Further down the page I found the perfect place to draw interest to my projects and blog posts using the theme's tile feature.
 
-![Tile Example.](1_Tile_Example.jpg)
+![Tile Example.](\assets\images\1_Tile_Example.jpg)
 
 I then cleaned up the left sidebar so it only featured active content and the social media links since I tend to stay off of that.
 
-![Sidebar.](1_Sidebar.jpg)
+![Sidebar.](\assets\images\1_Sidebar.jpg)
 
 I then chose to remove other pieces of personal information as I do not have a PO box or a (personal) professional email that I feel comfortable cluttering. 
 Perhaps I should change that... Thoughts for another day I suppose. 
@@ -94,6 +95,6 @@ I did leave some things unedited at the end. I left the search bar in place, but
 ## It’s Alive!
 Once the final changes were committed and everthing was ready, I clicked the link in the github settings to see my site and...
 
-Voila! I give youa home page!
+Voila! I give you a home page!
 
-In the next DevLog, I will be destroying all of my progress that I made in this one to add the tools and features that are Markdown and Jekyll. See you then!
+In the next DevLog, I will be destroying all of my progress that I made in this article to add the tools and features that are Markdown and Jekyll and discovering some pitfalls you can avoid.
