@@ -75,7 +75,15 @@ I wound up going with the *Editorial* theme as I felt it fit my needs more.
 I put the theme in place on my checked out copy of the dev branch and committed it. Now it's time to customize it!
 
 # Editing the Home Page
-The first thing I did was edit the titles and welcome messages to match my site's name and welcome users to my site.
+The homepages of most websites are called "Index". The name comes the idea that the home page of many early internet sites were in fact just indexes of their actual pages. While I have not personally verified this, the reasoning seems sound and the name has stuck around, so I'm choosing not to question it and move on.
+
+Saying that the early internet homepages *were* just indexes  implies that modern homepages are now usually more than that. This conjecture holds true for my website. 
+
+The homepage is the first thing someone sees when they come to my website. As such, it needs to showcase my creativity, lead the user further into the site, and give a good impression of my skills as a programmer and website designer. It is arguably the most important thing to get right on my website.
+
+Seems like a good place to start!
+
+The first thing I did to the homepage was edit the titles and welcome messages to match my site's name and welcome users to my site.
 
 ![Welcome Message.](\assets\images\1_Welcome_Message.jpg)
 
