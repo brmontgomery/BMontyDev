@@ -7,6 +7,7 @@ title:  "DevLog 1 - Getting Started on my Portfolio!"
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_DevLog_Intro_Picture.jpg" alt="DevLog Intro Picture" />
 </span>
+
 # Intro
 For my first entry into the DevLogs I have chosen to create an article on the creation of the website that these will be hosted on. There’s not much more to be said, so let’s get cracking!
 
@@ -38,6 +39,7 @@ On top of that, I would also like to make sure that my website follows a few pri
 The first thing I have to decide is what platform I wish to host my website on. Thankfully, this is not my first attempt to create my own website, so I am a little bit more aware of what the options are and their pros and cons than I was the first time. 
 
 The main contenders I am looking at are Wordpress, Squarespace, Github pages, and Firebase.
+
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_Web_Host_Logos.jpg" alt="Web host logos." />
 </span>
@@ -66,11 +68,13 @@ Make sure to check out your git repository within your computer and set up git t
 To start with, I decided to jumpstart the process with a template from [HTML5 UP](https://html5up.net/ "HTML5 UP Homepage") and it was was the best decision I made that day.
 
 I tried a few themes and eventually narrowed it down to the *Story* theme
+
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_Story_Theme.jpg" alt="Story theme." />
 </span>
 
 and the *Editorial* theme.
+
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_Editorial_Theme.jpg" alt="Editorial theme."" />
 </span>
@@ -89,16 +93,19 @@ The homepage is the first thing someone sees when they come to my website. As su
 Seems like a good place to start!
 
 The first thing I did to the homepage was edit the titles and welcome messages to match my site's name and welcome users to my site.
+
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_Welcome_Message.jpg" alt="Welcome Message." />
 </span>
 
 Further down the page I found the perfect place to draw interest to my projects and blog posts using the theme's tile feature.
+
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_Tile_Example.jpg" alt="Tile Example." />
 </span>
 
 I then cleaned up the left sidebar so it only featured active content and the social media links since I tend to stay off of that.
+
 <span class="image object">
 <img src="{{ site.url }}\assets\images\1_Sidebar.jpg" alt="Sidebar." />
 </span>
