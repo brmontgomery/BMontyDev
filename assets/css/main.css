@@ -1241,10 +1241,9 @@ input[type="radio"] + label:before {
   .image.centered {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; }
     .image.centered.fit {
       width: 100%; }
-  }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
