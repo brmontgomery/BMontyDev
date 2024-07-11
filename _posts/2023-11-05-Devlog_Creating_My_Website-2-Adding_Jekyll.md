@@ -4,7 +4,7 @@ title:  "DevLog 1 - Getting Started on my Portfolio!"
 ---
 
 <br />
-![Jekyll Site Picture]({{ site.url }}\assets\images\2_Jekyll-Site.JPG){:.image.centered}{:class="image"}
+![Jekyll Site Picture]({{ site.url }}\assets\images\2_Jekyll-Site.JPG){:class="image centered"}
 
 # Adding Jekyll
 Welcome back to Part 2 of the "Creating My Website" series! In this installment, I figure out how to add Jekyll, a static site generator, so I can use it to generate my site more efficiently. The question is, will I find it to be worth the investment?
@@ -24,7 +24,7 @@ As such if we are planning to do those things, we should consider creating a dyn
 Two properties that many of the features in this example share are individualized views of each webpage and interaction with resources on the backend of the website. These are the main features that set dynamic websites apart from their static counterparts and are possible without the use of additional tools being used within the site code. Without these features, many of your favorite websites would be designed with very different design principles. 
 
 ### What is Markdown
-![Markdown Logo]({{ site.url }}\assets\images\2_Markdown-mark.jpg){:.image.centered}{:class="image"}
+![Markdown Logo]({{ site.url }}\assets\images\2_Markdown-mark.jpg){:class="image centered"}
 
 In short, Markdown is a syntax meant to make writing for the web easier.
 
@@ -71,7 +71,7 @@ Be aware that I came into this knowing almost nothing about Jekyll. Not knowing 
 
 ## Why Did I Want to Use Jekyll?
 ![Typing Takes a Lot of Time]({{ site.url }}\assets\images\2_brad-neathery-nPy0X4xew60-unsplash.jpg "Photo by <a href="https://unsplash.com/@bradneathery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brad Neathery</a> on <a href="https://unsplash.com/photos/person-wearing-brown-and-white-watch-nPy0X4xew60?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  "){:.image.centered}{:class="image"}
+  "){:class="image centered"}
 
 After spending far too much time troubleshooting the damn fiddly bits if the software, I have lost sight of the answer to this question. But from my newfound perspective, one reason to use Jekyll still remains abundantly clear. **Code reuse.**
 
@@ -87,12 +87,12 @@ After ragging on the Jekyll documentation, I would like to say that this is one 
 
 For anyone that doesn't wish to leave the page, here are the steps:
 1. Install Ruby and devkit from [Ruby Installer Downloads Page](https://rubyinstaller.org/downloads/ "Ruby Installer Downloads Page") (Choose the most recent version for your architecture that includes the devkit.)
-![Ruby Installer Download]({{ site.url }}\assets\images\2_Ruby_Installer_Download.jpg){:.image.centered}
+![Ruby Installer Download]({{ site.url }}\assets\images\2_Ruby_Installer_Download.jpg){:class="image centered"}
 2. Keep all options selected during the install. 
-![Ruby Installer Options]({{ site.url }}\assets\images\2_Ruby-Install-Options.jpg){:.image.centered}
+![Ruby Installer Options]({{ site.url }}\assets\images\2_Ruby-Install-Options.jpg){:class="image centered"}
 3. When you get to the option for running **ridk install** make sure that it is checked.
 4. In the prompt that opens up, choose option 3 to install MSYS2 and MINGW development toolchain.
-![Ruby Installer Options]({{ site.url }}\assets\images\2_Toolset-Install.jpg){:.image.centered}
+![Ruby Installer Options]({{ site.url }}\assets\images\2_Toolset-Install.jpg){:class="image centered"}
 5. Run the command line as administrator, navigate to the folder in which you plan to put your website, and install Ruby using the command:
 	{% highlight html %}{% raw %}gem install jekyll bundler{% endraw %}{% endhighlight %}
 6. To verify the install run:
@@ -108,7 +108,7 @@ Here is where I did something slightly different from the blog(because I'm tryin
 	{% highlight html %}{% raw %}cd [YOUR_SITE'S_ROOT_FOLDER]
 	bundle exec jekyll serve{% endraw %}{% endhighlight %}
 Afterwards you should see the below:
-![Ruby Installer Download]({{ site.url }}\assets\images\2_Serve-Success.jpg){:.image.centered}
+![Ruby Installer Download]({{ site.url }}\assets\images\2_Serve-Success.jpg){:class="image centered"}
 This code initiates the development environment so that you can see changes in your new site's code by typing in the following URL in your favorite web browser:
 	http://127.0.0.1:4000/
 12.  In the root folder, feel free to change the _config.yml and gemfile to better suit your needs. 
@@ -188,7 +188,7 @@ But this still didn't fix Markdown links. I had to eventually find out the corre
 [HTML5 UP](https://html5up.net/ "HTML5 UP Homepage")
 
 And after a long round of troubleshooting images, I found out that the below is the proper way to get images inserted into Markdown files with Jekyll:
-![Adding Images Properly]({{ site.url }}\assets\images\2_Image-Adding.jpg){:.image.centered}
+![Adding Images Properly]({{ site.url }}\assets\images\2_Image-Adding.jpg){:class="image centered"}
 
 These images also needed to be included in the {% raw %}`assets/images/`{% endraw %} folder in order to be server properly.
 
@@ -201,8 +201,8 @@ One of the main orders of business after I got the homepage up and running was t
 
 I won't go into much detail on the creation and troubleshooting phases of creating the first blog post as I ran into, and solved many of the  issues I outlined above while troubleshooting the blog rather than the Homepage. However, I will invite you to marvel at how Jekyll is doing a remarkable job keeping my website consistent through just a few lines of code rather than a ton of copy and paste.
 
-![Layout Code]({{ site.url }}\assets\images\2_Layout-Code.jpg){:.image.centered}{:class="image"}
-![Showing the New Blog Page]({{ site.url }}\assets\images\2_Jekyll-Blog-1.jpg){:.image.centered}{:class="image"}
+![Layout Code]({{ site.url }}\assets\images\2_Layout-Code.jpg){:class="image centered"}
+![Showing the New Blog Page]({{ site.url }}\assets\images\2_Jekyll-Blog-1.jpg){:class="image centered"}
 
 ## Do I recommend Using Jekyll?
 Jekyll has some quirks, but overall it is an awesome tool that I expect to save lots of typing in the future. When used right, it will be a powerful time savings tool. However, if you are having issues getting it to work for you, sometimes it is better to just do things the old school way and only utilize Jekyll's features for things like blog posts or project pages. That will require lots of tedious copy/pasting otherwise.
