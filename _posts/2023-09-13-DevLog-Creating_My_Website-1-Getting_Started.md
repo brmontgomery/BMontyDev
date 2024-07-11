@@ -4,7 +4,12 @@ title:  "DevLog 1 - Getting Started on my Portfolio!"
 ---
 
 <br />
+<span class="image object">
+
 ![DevLog Intro Picture]({{ site.url }}\assets\images\1_DevLog_Intro_Picture.jpg)
+
+</span>
+
 # Intro
 For my first entry into the DevLogs I have chosen to create an article on the creation of the website that these will be hosted on. There’s not much more to be said, so let’s get cracking!
 
@@ -37,7 +42,11 @@ The first thing I have to decide is what platform I wish to host my website on. 
 
 The main contenders I am looking at are Wordpress, Squarespace, Github pages, and Firebase.
 
+<span class="image object">
+
 ![Web host logos.]({{ site.url }}\assets\images\1_Web_Host_Logos.jpg)
+
+</span>
 
 The first time I attempted to make a personal website (for a non-web-dev undergraduate class) I used Wordpress because it took little effort to make a minimal site for a class. While it had some perks with its simple startup and the ability to host your website for free, I found myself frustrated with the difficulty in customizing my website without forking over a significant sum of money. 
 
@@ -64,11 +73,19 @@ To start with, I decided to jumpstart the process with a template from [HTML5 UP
 
 I tried a few themes and eventually narrowed it down to the *Story* theme
 
+<span class="image object">
+
 ![Story theme.]({{ site.url }}\assets\images\1_Story_Theme.jpg) 
+
+</span>
 
 and the *Editorial* theme.
 
+<span class="image object">
+
 ![Editorial theme.]({{ site.url }}\assets\images\1_Editorial_Theme.jpg)
+
+</span>
 
 I wound up going with the *Editorial* theme as I felt it fit my needs more.
 
@@ -85,15 +102,27 @@ Seems like a good place to start!
 
 The first thing I did to the homepage was edit the titles and welcome messages to match my site's name and welcome users to my site.
 
+<span class="image object">
+
 ![Welcome Message.]({{ site.url }}\assets\images\1_Welcome_Message.jpg)
+
+</span>
 
 Further down the page I found the perfect place to draw interest to my projects and blog posts using the theme's tile feature.
 
+<span class="image object">
+
 ![Tile Example.]({{ site.url }}\assets\images\1_Tile_Example.jpg)
+
+</span>
 
 I then cleaned up the left sidebar so it only featured active content and the social media links since I tend to stay off of that.
 
+<span class="image object">
+
 ![Sidebar.]({{ site.url }}\assets\images\1_Sidebar.jpg)
+
+</span>
 
 I then chose to remove other pieces of personal information as I do not have a PO box or a (personal) professional email that I feel comfortable cluttering. 
 Perhaps I should change that... Thoughts for another day I suppose. 
