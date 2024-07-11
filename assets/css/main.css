@@ -1241,9 +1241,8 @@ input[type="radio"] + label:before {
   .image.centered {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
-    .image.centered.fit {
-      width: 100%; }
+    margin-right: auto;
+  }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
@@ -1263,6 +1262,16 @@ a.image {
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
+
+.posts img {
+  border-radius: 0.375em;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+  width: 100%
+}
 
 /* List */
 ol {
@@ -2278,3 +2287,4 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
