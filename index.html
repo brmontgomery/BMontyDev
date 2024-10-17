@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js), Analytics, Site Verification -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-R2MNLDHVW6"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -10,11 +10,25 @@
 
             gtag('config', 'G-R2MNLDHVW6');
         </script>
+        <meta name="google-site-verification" content="ofz064OtKxvEo30pcWYEB9IcKLdHKNlJxa3GIWcoA6k" />
+
+        <!-- Basic Info -->
         <meta charset="UTF-8">
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>Brian Montgomery</title>
+        
+        <!-- Linked Internal Files -->
+        <link rel="stylesheet" href="css/style.css" hreflang="en-us">
         <link rel="icon" type="image/png" href="img/BM_favicon_48x48.png" hreflang="en-us">
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+
+        <!-- Meta Info -->
         <meta property="og:title" content="Brian Montgomery" />
         <meta property="og:description" content="Brian Montgomery is a software developer based in Southern California. While his work deals with the business side of programming, his personal projects are where he checks out new ideas and has some fun with other languages." />
         <meta property="og:type" content="website" />
@@ -25,109 +39,113 @@
         <meta property="og:image:height" content="800" />
         <meta property="og:image:type" content="placeholder(image)/png" />
         <meta property="og:locale" content="en_US">
+
         <meta name="description" content="Brian Montgomery is a software developer based in Southern California. While his work deals with the business side of programming, his personal projects are where he checks out new ideas and has some fun with other languages.">
         <meta name="keywords" content="C++, software engineer, development, web, database, brian, montgomery, javascript, socal">
-        <meta name="google-site-verification" content="ofz064OtKxvEo30pcWYEB9IcKLdHKNlJxa3GIWcoA6k" />
         <meta itemprop="name" content="Brian Montgomery">
         <meta itemprop="description" content="Brian Montgomery is a software developer based in Southern California. While his work deals with the business side of programming, his personal projects are where he checks out new ideas and has some fun with other languages.">
         <meta itemprop="image" content="img/placeholder(cover).png">
+        <meta name="msapplication-TileColor" content="#022124">
+        <meta name="theme-color" content="#022124">
+
         <meta name="twitter:card" content="summary">
         <meta name="twitter:url" content="https://brmontgomery.github.io/BMontyDev/">
         <meta name="twitter:title" content="Brian Montgomery">
         <meta name="twitter:description" content="Brian Montgomery is a software developer based in Southern California. While his work deals with the business side of programming, his personal projects are where he checks out new ideas and has some fun with other languages.">
         <meta name="twitter:image:src" content="img/placeholder(cover).png">
-        <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="48x48" href="/favicon/favicon-48x48.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <meta name="msapplication-TileColor" content="#022124">
-        <meta name="theme-color" content="#022124">
+        
+        <!-- Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!---logo - DM Sans; Text - Inter; Code - Source Code Pro-->
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css" hreflang="en-us">
     </head>
-    <body>
-        <div id="ribbon">
-            <div id="ribbon-left">
-                <img>
+    <body class="flex-vertical">
+        <div class="flex-horizontal" id="ribbon">
+            <img class="flex">
+            <ul class="flex-vertical" id="ribbon-right">
+                <li class="flex"><button>Home</button></li>
+                <li class="flex"><button>Projects</button></li>
+                <li class="flex"><button>Blog</button></li>
+            </ul>
+        </div>
+        <div class="flex-horizontal" id="center">
+            <header class="flex-vertical" id="left">
+                <h1 class="flex">Brian Montgomery</h1>
+                <nav class="flex" id="navigation">
+                    <ul class="flex-vertical">
+                        <li class="flex"><a href="#about-section">About</a></li>
+                        <li class="flex"><a href="#experience-section">Experience</a></li>
+                        <li class="flex"><a href="#projects-section">Projects</a></li>
+                        <li class="flex"><a href="#blog-section">Blog</a></li>
+                    </ul>
+                </div>
+                <ul class="flex-horizontal" id="social-links">
+                    <li class="flex"><img id="github-link"></li>
+                    <li class="flex"><img id="linkedin-link"></li>
+                </ul>
             </div>
-            <div id="ribbon-left">
-                <button>Home</button>
-                <button>Projects</button>
-                <button>Blog</button>
+            <div class="flex-vertical" id="right">
+                <div class="flex-vertical" id="about-section">
+                    <h3 class="flex">About Me</h3>
+                    <p class="flex">Info About me.</p>
+                </div>
+                <div class="flex-vertical" id="experience-section">
+                    <h3 class="flex">Experience</h3>
+                    <ul class="flex-vertical">
+                        <li class="flex-horizontal" id="desco">
+                            <div  class="flex" id="desco-dates">November 2019 - Present</div>
+                            <div class="flex-vertical" id="desco-info">
+                                <h3 class="flex">Software Engineer / Senior Database Manager</h3>
+                                <h3 class="flex">Desco Industries Inc</h3>
+                                <a class="flex" id="desco-link"></a>
+                                <p class="flex">Information about my work at Desco</p>
+                                <ul class="flex-horizontal" id="desco-tags">
+                                    <li class="tag flex">Tag1</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="flex-horizontal" id="code-to-the-future">
+                            <div class="flex" id="code-to-the-future-dates">January 2019 - June 2019</div>
+                            <div class="flex-vertical" id="code-to-the-future-info">
+                                <h3 class="flex">Coding Instructor</h3>
+                                <h3 class="flex">code-to-the-future</h3>
+                                <a  class="flex" id="Code To The Future"></a>
+                                <p class="flex">Information about my work at Code To The Future</p>
+                                <ul class="flex-horizontal" id="code-to-the-future-tags">
+                                    <li class="tag flex">Tag1</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-vertical" id="projects-section">
+                    <ul class="flex-horizontal">
+                        <li class="flex-vertical" id="project1">
+                            <h3 class="flex">Project1</h3>
+                            <img class="flex" id="projects-section">>
+                            <p class="flex">Info about Project 1</p>
+                            <ul class="flex-horizontal" id="project1-tags">
+                                <li class="tag flex">Tag1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-vertical" id="blog-section">
+                    <ul>
+                        <li class="flex-vertical" id="blog-post-1">
+                            <h3 class="flex">Blog Post 1</h3>
+                            <img class="flex">
+                            <p class="flex"> Info about Blog Post 1</p>
+                            <ul class="flex-horizontal" id="blog-post-1-tags">
+                                <li class="tag">Tag1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div id="left">
-            <h1>Brian Montgomery</h1>
-            <div id="navigation">
-                <h2>About</h2>
-                <h2>Experience</h2>
-                <h2>Projects</h2>
-                <h2>Blog</h2>
-            </div>
-            <div id="social-links">
-                <img id="github-link">
-                <img id="linkedin-link">
-            </div>
-        </div>
-        <div id="right">
-            <div id="about-section">
-                <h3>About Me</h3>
-                <p>Info About me.</p>
-            </div>
-            <div id="experience-section">
-                <h3>Experience</h3>
-                <div id="desco">
-                    <div id="desco-dates">November 2019 - Present</div>
-                    <div id="desco-info">
-                        <h3>Software Engineer / Senior Database Manager</h3>
-                        <h3>Desco Industries Inc</h3>
-                        <a id="desco-link"></a>
-                        <p>Information about my work at Desco</p>
-                        <div id="desco-tags">
-                            <div class="tag">Tag1</div>
-                        </div>
-                    </div>
-                </div>
-                <div id="code-to-the-future">
-                    <div id="code-to-the-future-dates">January 2019 - June 2019</div>
-                    <div id="code-to-the-future-info">
-                        <h3>Coding Instructor</h3>
-                        <h3>code-to-the-future</h3>
-                        <a id="Code To The Future"></a>
-                        <p>Information about my work at Code To The Future</p>
-                        <div id="code-to-the-future-tags">
-                            <div class="tag">Tag1</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="projects-section">
-                <div id="project1">
-                    <h3>Project1</h3>
-                    <img>
-                    <p>Info about Project 1</p>
-                    <div id="project1-tags">
-                        <div class="tag">Tag1</div>
-                    </div>
-                </div>
-            </div>
-            <div id="blog-section">
-                <div id="blog-post-1">
-                    <h3>Blog Post 1</h3>
-                    <img>
-                    <p>Info about Blog Post 1</p>
-                    <div id="blog-post-1-tags">
-                        <div class="tag">Tag1</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
+        <div class="flex" id="footer">
             Inspired by https://brittanychiang.com/?ref=hackernoon.com.
         </div>
     </body>
