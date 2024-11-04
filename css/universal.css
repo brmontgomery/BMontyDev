@@ -1,6 +1,6 @@
 /* palette-name: 'Cyange'*/
 
-root { 
+:root { 
     /* Greyscale hues */
     --black: #000000;
     --almost-black: #111111;
@@ -16,7 +16,7 @@ root {
     --silver: #bbbbbb;
     --dark-white: #cccccc;
     --shaded-white: #dddddd;
-    --almot-white: #eeeeee;
+    --almost-white: #eeeeee;
     --white: #ffffff;
 
     /* Cyan hues */
@@ -35,6 +35,11 @@ root {
     --dark-orange-highlight: #e36b00;
     --medium-orange-highlight: #ee7200;
     --bright-orange-highlight: #ff7800;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 /* End Palette */
@@ -45,68 +50,76 @@ root {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-  }
+}
   
-  .source-code-pro-code {
-      font-family: "Source Code Pro", monospace;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-  }
+.source-code-pro-code {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
   
-  .inter-thin {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 100;
-      font-style: normal;
-  }
-  .inter-extra-light {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 200;
-      font-style: normal;
-  }
-  .inter-light {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-  }
-  .inter-normal {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-  }
-  .inter-medium {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 500;
-      font-style: normal;
-  }
-  .inter-semibold {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 600;
-      font-style: normal;
-  }
-  .inter-bold {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-  }
-  .inter-extra-bold {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 800;
-      font-style: normal;
-  }
-  .inter-black {
-      font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 900;
-      font-style: normal;
-  }
+.inter-thin {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.inter-extra-light {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.inter-light {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-medium {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inter-semibold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-extra-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.inter-black {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
   
   /* End Fonts */
