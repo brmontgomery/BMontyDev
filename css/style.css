@@ -10,6 +10,7 @@ body {
     background-color: var(--dark-cyan-background);
     margin: 0px;
     color: var(--almost-white);
+    max-width:100vw;
 }
 
 a {
@@ -58,8 +59,8 @@ hr {
 }
 
 .far-spaced {
-    justify-content: space-between;
-    min-width: 100%;
+    justify-content: space-around;
+    gap: 70vw;
 }
 
 .anchor {
@@ -72,24 +73,25 @@ hr {
 
 .center {
     z-index: 0;
-    max-height: 70vh;
     top: 7vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .top {
     z-index: 1;
     top: 0;
-    padding-left: 60px;
-    padding-right: 8px;
+    max-height: 7vh;
+    width: 100%;
     background-color: var(--cyan-background);
 }
 
 .left {
-    top: 7vh;
+    top: 8vh;
     width: 50%;
     max-height: 70vh;
     background-color: var(--dark-cyan-background);
-    padding-top: 80px;
+    padding-top: 6vh;
     margin-left: 60px;
 }
 
