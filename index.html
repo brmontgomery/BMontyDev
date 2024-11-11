@@ -76,10 +76,10 @@
                 <p class="blurb inter-light" id="blurb">I develop bespoke software solutions or whatever else catches my attention.</p>
                 <nav class="flex" id="navigation">
                     <ul class="flex-vertical inter-extra-light">
-                        <li class="flex side-nav-element"><a href="#about-section">About</a></li>
-                        <li class="flex side-nav-element"><a href="#experience-section">Experience</a></li>
-                        <li class="flex side-nav-element"><a href="#projects-section">Projects</a></li>
-                        <li class="flex side-nav-element"><a href="#blog-section">Blog</a></li>
+                        <li class="flex left-nav-element"><a href="#about-section">About</a></li>
+                        <li class="flex left-nav-element"><a href="#experience-section">Experience</a></li>
+                        <li class="flex left-nav-element"><a href="#projects-section">Projects</a></li>
+                        <li class="flex left-nav-element"><a href="#blog-section">Blog</a></li>
                     </ul>
                 </nav>
                 <ul class="flex-horizontal" id="social-links">
@@ -87,35 +87,35 @@
                     <li class="flex"><img id="linkedin-link"></li>
                 </ul>
             </header>
-            <div class="flex-vertical" id="right">
+            <div class="flex-vertical sticky right" id="right">
                 <div class="flex-vertical anchor" id="about-section">
-                    <h3 class="flex">About Me</h3>
+                    <h3 class="flex section-header">About Me</h3>
                     <p class="flex">Info About me.</p>
                 </div>
                 <hr>
                 <div class="flex-vertical anchor" id="experience-section">
-                    <h3 class="flex" >Experience</h3>
+                    <h3 class="flex section-header" >Experience</h3>
                     <ul class="flex-vertical">
-                        <li class="flex-horizontal" id="desco">
-                            <div  class="flex" id="desco-dates">November 2019 - Present</div>
+                        <li class="flex-horizontal experience-block" id="desco">
+                            <div  class="flex experience-dates" id="desco-dates">November 2019 - Present</div>
                             <div class="flex-vertical" id="desco-info">
                                 <h3 class="flex">Software Engineer / Senior Database Manager</h3>
-                                <h3 class="flex">Desco Industries Inc</h3>
+                                <h4 class="flex">Desco Industries Inc</h4>
                                 <a class="flex" id="desco-link"></a>
                                 <p class="flex">Information about my work at Desco</p>
-                                <ul class="flex-horizontal" id="desco-tags">
+                                <ul class="tags" id="desco-tags">
                                     <li class="tag flex">Tag1</li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="flex-horizontal" id="code-to-the-future">
-                            <div class="flex" id="code-to-the-future-dates">January 2019 - June 2019</div>
+                        <li class="flex-horizontal experience-block" id="code-to-the-future">
+                            <div class="flex experience-dates" id="code-to-the-future-dates">January 2019 - June 2019</div>
                             <div class="flex-vertical" id="code-to-the-future-info">
                                 <h3 class="flex">Coding Instructor</h3>
-                                <h3 class="flex">code-to-the-future</h3>
+                                <h4 class="flex">code-to-the-future</h4>
                                 <a  class="flex" id="Code To The Future"></a>
                                 <p class="flex">Information about my work at Code To The Future</p>
-                                <ul class="flex-horizontal" id="code-to-the-future-tags">
+                                <ul class="tags" id="code-to-the-future-tags">
                                     <li class="tag flex">Tag1</li>
                                 </ul>
                             </div>
@@ -126,10 +126,10 @@
                 <div class="flex-vertical anchor" id="projects-section">
                     <ul class="flex-horizontal">
                         <li class="flex-vertical block" id="project1">
-                            <h3 class="flex">Project1</h3>
+                            <h3 class="flex section-header">Project1</h3>
                             <img class="flex" id="project1-image" width="160" height="90" src="img/placeholder.png">
                             <p class="flex">Info about Project 1</p>
-                            <ul class="flex-horizontal" id="project1-tags">
+                            <ul class="tags" id="project1-tags">
                                 <li class="tag flex">Tag1</li>
                             </ul>
                         </li>
@@ -139,7 +139,7 @@
                 <div class="flex-vertical anchor" id="blog-section">
                     <ul>
                         <li class="flex-vertical block" id="blog-post-1">
-                            <h3 class="flex">Blog Post 1</h3>
+                            <h3 class="flex section-header">Blog Post 1</h3>
                             <img class="flex" id="blog1-image" width="160px" height="90px" src="img/placeholder.png">
                             <p class="flex"> Info about Blog Post 1</p>
                             <ul class="flex-horizontal" id="blog-post-1-tags">
@@ -151,6 +151,8 @@
             </div>
         </div>
         <div class="flex footer" id="footer">
+            Programmed from Scratch.
+            <br />
             Inspired by https://brittanychiang.com/?ref=hackernoon.com.
         </div>
     </body>
