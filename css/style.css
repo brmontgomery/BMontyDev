@@ -67,7 +67,7 @@ hr {
 }
 
 .anchor {
-    scroll-margin-top: 7vh;
+    scroll-margin-top: 29vh;
 }
 
 .sticky {
@@ -76,7 +76,6 @@ hr {
 
 .center {
     z-index: 0;
-    top: 7vh;
     padding-left: 10vw;
     padding-right: 10vw;
     position: relative;
@@ -91,19 +90,19 @@ hr {
 }
 
 .left {
-    top: 8vh;
+    top: 14vh;
     width: 50%;
-    max-height: 70vh;
+    max-height: 55vh;
     background-color: var(--dark-cyan-background);
-    padding-top: 12vh;
+    padding-top: 14vh;
     margin-left: 60px;
 }
 
 .right {
-    top: 8vh;
+    top: 14vh;
     width: 50%;
     background-color: var(--dark-cyan-background);
-    padding-top: 12vh;
+    padding-top: 22vh;
 }
 
 .left-nav-element {
@@ -132,6 +131,15 @@ hr {
 .experience-dates {
     margin-top: 1vh;
     min-width: 140px;
+    max-width: 140px;
+}
+
+.project-section {
+    width:33%;
+}
+
+.blog-section {
+    width:33%;
 }
 
 .footer {
@@ -215,6 +223,7 @@ hr {
 #navigation {
     margin-top: 30px;
 }
+
 #navigation > ul {
     gap: 24px;
     font-size: 16px;
