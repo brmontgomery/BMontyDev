@@ -35,7 +35,7 @@ h2, h3, h4 {
 
 hr {
     margin-top: 2vh;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     width: 100%;
 }
 
@@ -134,12 +134,18 @@ hr {
     max-width: 140px;
 }
 
+.cards {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 10%;
+    flex-wrap: wrap;
+}
 .project-section {
-    width:33%;
+    width:35%;
 }
 
 .blog-section {
-    width:33%;
+    width:35%;
 }
 
 .footer {
@@ -160,9 +166,13 @@ hr {
   .tags li {
     float: left; 
   }
+
+  .block {
+    width: 160px;
+  }
   
   .tag {
-    background: var(--bright-cyan-highlight);
+    background: var(--bright-orange-highlight);
     border-radius: 3px 0 0 3px;
     color: var(--almost-black);
     display: inline-block;
@@ -191,7 +201,7 @@ hr {
   .tag::after {
     background: var(--dark-cyan-background);
     border-bottom: 13px solid transparent;
-    border-left: 10px solid var(--bright-cyan-highlight);
+    border-left: 10px solid var(--bright-orange-highlight);
     border-top: 13px solid transparent;
     content: '';
     position: absolute;
@@ -200,11 +210,11 @@ hr {
   }
   
   .tag:hover {
-    background-color: var(--dark-cyan-highlight);
+    background-color: var(--dark-orange-highlight);
   }
   
   .tag:hover::after {
-     border-left-color: var(--dark-cyan-highlight); 
+     border-left-color: var(--dark-orange-highlight); 
   }
 
 /* End Tags Section */
@@ -214,7 +224,7 @@ hr {
 }
 
 #ribbon-right, #ribbon-left {
-    gap: 8px;
+    gap: 24px;
     margin: 8px;
     align-self: center;
     font-size: 18px;
