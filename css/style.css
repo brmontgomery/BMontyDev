@@ -84,7 +84,7 @@ hr {
 .top {
     z-index: 1;
     top: 0;
-    max-height: 7vh;
+    max-height: 50px;
     width: 100%;
     background-color: var(--cyan-background);
 }
